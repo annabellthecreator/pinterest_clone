@@ -1,0 +1,107 @@
+.navigation-contaner{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-intro{
+    min-width: 100%;
+}
+
+.navigation-wrapper{
+    display: flex;
+    width: 100%;
+    height: 30PX;
+    justify-content: start;
+}
+
+.ul-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li{
+    padding: 4px;
+    list-style-type: none;
+}
+
+.navigation-link{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login{
+    background: red;
+    width: 13%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    color: white;
+}
+.login > .login_btn{
+    color: white;
+    font-size: 15px;
+}
+.signup{
+    background:oldlace;
+    width: 15%;
+    height: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    color: azure;
+    border: 2px black solid;
+   
+}
+
+.signup > .signup-btn{
+color: gray;
+font-size: 15px;
+}
+.Pinterest .Pinterest-btn{
+    color: red;
+    font-size: 20px;
+    
+    
+}
+.Explore .Explore-btn{
+    color: black;
+    font-size: 20px;
+}
+
+.Pinterest{
+    display: flex;
+    justify-content: start;
+    
+
+}
+.decoridea{
+    display: flex;
+    justify-content:center ;
+    margin: 1% auto;
+    width: 27%;
+    
+}
+.decoridea > h1{
+    font-size: 50px;
+}
+#home {
+    color: rgb(61, 102, 61);
+   
+}
+.carol{
+width: 100%;
+margin: 5px 0;
+display: flex;
+justify-content: center;
+
+}
+ .carol > .carolitem{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(61, 102, 61);
+    margin: 1px 0;
+    border-radius: 100%;
+    
+}
